@@ -8,7 +8,9 @@
 
     <body>
         <video id = "webcamVideo" autoplay></video>
+        <video id="webcamVideo" autoplay playsinline muted></video>
         <script>
+            
             const webcamVideo = document.getElementById("webcamVideo");
             const constraints = {
                 video: {
